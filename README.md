@@ -9,7 +9,7 @@
 
 ####Intructions:
 * Download / Clone
-* Run `composer install`
+* Run `composer update`
 * Run `php artisan env:gen`
 * Config `.env.gen` according to the example below and change the name of the file to `.env`:
 	
