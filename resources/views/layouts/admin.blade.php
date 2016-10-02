@@ -1,0 +1,1 @@
+<!doctype html><html>@include('includes.head')<body>@include('includes.navigation')<div class="content">@yield('content')</div>@include('includes.footer') @include('includes.scripts')</body></html>

@@ -1,0 +1,38 @@
+{
+  "name": "Base",
+
+  "version": "1.0.0",
+
+  "description": "Project Description",
+
+  "main": "index.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "private": true,
+
+  "author": "Pedro Rodrigues",
+
+  "license": "ISC",
+
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "gulp": "^3.8.8",
+    "grunt-autoprefixer": "^2.1.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-cssmin": "^0.11.0",
+    "grunt-contrib-htmlmin": "^2.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-purifycss": "^0.1.1",
+    "grunt-uncss": "^0.6.1"
+  },
+  "dependencies": {
+    "laravel-elixir": "^4.0.0",
+    "bootstrap-sass": "^3.0.0"
+  }
+}

@@ -1,0 +1,1 @@
+@extends ('admin.layout') @section('content')<div id="members-content"><div class="container"><div>@foreach ($allUsers as $member)<h4>{{ $member->name }} <span>- </span><strong>{{ $member->email }}</strong></h4>@endforeach</div></div></div>@endsection

@@ -1,0 +1,53 @@
+#admin-content
+	height: calc(100% - 70px)
+
+	.login-panel
+		padding-top: 200px
+
+		h1
+			text-align: center
+			margin-bottom: 50px
+
+	.form-control
+		outline:
+			width: 0 !important
+			color: transparent
+		border:
+			//radius: 0 !important
+			width: 1px
+			style: solid
+			color: $dark-gray
+
+		&:focus,
+		&:active
+			box-shadow: none
+			outline: 0
+			border:
+				color: $primary-color
+
+	textarea
+		max-width: 100%
+
+	.btn-admin
+		outline:
+			width: 0 !important
+			color: transparent
+		border:
+			//radius: 0
+			width: 0px
+			color: $dark-gray
+			style: solid
+		width: 100%
+		background-color: $primary-color
+		color: white
+		text-transform: uppercase
+
+		&:hover,
+		&:focus,
+		&:active
+			box-shadow: none
+			outline: 0
+			background-color: $secondary-color !important
+			color: white !important
+			border:
+				color: black !important
