@@ -4,7 +4,7 @@ namespace base\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-// Run 'php artisan app:name NEW_NAME' to rename;
+
 use base\Http\Requests;
 use base\Http\Controllers\Controller;
 use base\Member;
