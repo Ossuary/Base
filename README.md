@@ -38,7 +38,7 @@
 		MAIL_PASSWORD=null
 		MAIL_ENCRYPTION=tls
 		 
-		MAILGUN_DOMAIN=DOMAIN
+		MAILGUN_DOMAIN=domain.com
 		MAILGUN_SECRET=key-????????????????
 		
 * Run `php artisan key:generate`
