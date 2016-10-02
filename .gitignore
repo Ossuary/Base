@@ -1,9 +1,13 @@
 /vendor
 /node_modules
+
 Homestead.yaml
 Homestead.json
+
 .env
 .env.gen
+
 .sass-cache
 .idea
+
 .git
