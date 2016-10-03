@@ -7,7 +7,7 @@
 * Newsletter Subscription with Database Integration
 * Backoffice Newsletter Membership Management
 
-####Intructions:
+#### Intructions:
 * Download / Clone
 * Run `composer update`
 * Run `php artisan env:gen`
