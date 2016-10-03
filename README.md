@@ -43,6 +43,29 @@
 		
 * Run `php artisan key:generate`
 * Run `npm install`
+* Create Database named after  `DB_NAME` on the `.env` file, with the following Schema:
+	 
+		|-_DB_NAME
+		  |--_members
+		  |--_migrations
+		  |--_users
+		
+* Create the DB Admin User with tinker:
+	
+		Creating a user using tinker
+		/project/directory/ php artisan tinker
+		Psy Shell v0.4.3  by Justin Hileman
+		>>> $user = new App\User;
+		=> <App\User #000000007543b78f0000000009f4a1ca> {}
+		>>> $user->name = 'Your Name';
+		=> "Your Name"
+		>>> $user->email = 'YOUR@email.com';
+		=> "YOUR@email.com"
+		>>> $user->password = bcrypt('YOUR PASSWORD');
+		=> "$2y$10$gBF9EIr9IrIbMX7dwQsCTO6IsBC0/c0P6qzZ01zwPhoW61MMwOVgC"
+		>>> $user->save();
+		=> true
+		>>> exit;
 
 #### Usage:
 * Configure `Gruntfile.js`

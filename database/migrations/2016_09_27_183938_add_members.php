@@ -13,8 +13,8 @@ class AddMembers extends Migration
     public function up()
     {
         DB::table('members')->insert(array(
-            'name'=>'Pedro Rodrigues',
-            'email'=>'pedrompsrodrigues@gmail.com',
+            'name'=>'Test Member',
+            'email'=>'testmember@email.com',
             'created_at'=>date('Y-m-d H:m:s'),
             'updated_at'=>date('Y-m-d H:m:s')
         ));
@@ -26,8 +26,6 @@ class AddMembers extends Migration
      */
     public function down()
     {
-        DB::table('members')->where('name','=','Pedro Rodrigues')->delete();
-        DB::table('members')->where('name','=','Bruna Guerreiro')->delete();
-
+        DB::table('members')->where('name','=','Test Member')->delete();
     }
 }
