@@ -7,6 +7,7 @@
         <div class="container">
 
             <h2>{{trans('language.home')}}</h2>
+            <h3>TESTING</h3>
 
         </div>
 

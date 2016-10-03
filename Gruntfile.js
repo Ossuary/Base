@@ -77,7 +77,7 @@ module.exports = function(grunt){
 
                     'resources/views/admin/partials/head.blade.php'             : 'src/html/admin/partials/head.blade.php',
                     'resources/views/admin/partials/scripts.blade.php'          : 'src/html/admin/partials/scripts.blade.php',
-                    'resources/views/admin/partials/navbar.blade.php'          : 'src/html/admin/partials/navbar.blade.php',
+                    //'resources/views/admin/partials/navbar.blade.php'          : 'src/html/admin/partials/navbar.blade.php',
 
                     // Front Office
                     'resources/views/contacts.blade.php'                        : 'src/html/contacts.blade.php',
