@@ -1,19 +1,29 @@
-#members-table_length
-	float: left
+#members-table_wrapper
 
-#dataTables_filter
-	float: right
+	#members-table_length
+		float: left
 
-#members-table_info
-	float: left
+	#members-dataTables_filter
+		float: right
 
-#members-table_paginate
-	float: right
+	#members-table_filter>label>input
 
-	#members-table_previous
-		padding-right: 5px
-		cursor: pointer
+		&:focus
+			outline-color: $primary-color
 
-	#members-table_next
-		padding-left: 5px
-		cursor: pointer
+
+	#members-table_info
+		float: left
+
+	#members-table_paginate
+		float: right
+		padding-top: 8px
+
+		#members-table_previous
+			padding-right: 5px
+			cursor: pointer
+
+		#members-table_next
+			padding-left: 5px
+			cursor: pointer
+
