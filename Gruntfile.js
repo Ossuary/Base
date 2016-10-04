@@ -35,6 +35,16 @@ module.exports = function(grunt){
             }
         },
 
+        autoprefixer: {
+            options: {
+                browsers: ['last 2 versions', 'ie 8', 'ie 9']
+            },
+            your_target: {
+                src: 'public/css/styles.css',
+                dest: 'public/css/styles.css'
+            }
+        },
+
         cssmin: {
             target: {
                 files: [{
@@ -44,16 +54,6 @@ module.exports = function(grunt){
                     dest: 'public/css',
                     ext: '.min.css'
                 }]
-            }
-        },
-
-        autoprefixer: {
-            options: {
-                browsers: ['last 2 versions', 'ie 8', 'ie 9']
-            },
-            your_target: {
-                src: 'public/css/styles.css',
-                dest: 'public/css/styles.css'
             }
         },
 
