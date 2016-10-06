@@ -7,9 +7,7 @@
 
         @include('includes.navigation')
 
-        <div class="content">
-            @yield('content')
-        </div>
+        @yield('content')
 
         @include('includes.newsletter')
         @include('includes.footer')

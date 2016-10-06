@@ -2,11 +2,18 @@
 
 @section('content')
 
-    <div id="about-content">
+    <div class="content" id="about-content">
 
-        <div class="container">
+        <div class="header-section">
 
-            <h2>{{trans('language.about')}}</h2>
+            <div class="container">
+
+                <header class="header" id="about-header">
+                    <h2>{{trans('language.about')}}</h2>
+                    <p>This is the <strong>about</strong> header!</p>
+                </header>
+
+            </div>
 
         </div>
 

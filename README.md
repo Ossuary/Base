@@ -62,7 +62,7 @@
 		>>> $user->email = 'YOUR@email.com';
 		=> "YOUR@email.com"
 		>>> $user->password = bcrypt('YOUR PASSWORD');
-		=> "$2y$10$gBF9EIr9IrIbMX7dwQsCTO6IsBC0/c0P6qzZ01zwPhoW61MMwOVgC"
+		=> "$BC0/c0P6qzZ011MMwOVgC"
 		>>> $user->save();
 		=> true
 		>>> exit;

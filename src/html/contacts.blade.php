@@ -2,15 +2,26 @@
 
 @section('content')
 
-    <div id="contacts-content">
+    <div class="content" id="contacts-content">
 
-        <div class="container">
+        <div class="header-section">
+
+            <div class="container">
+
+                <header class="header" id="contacts-header">
+                    <h2>{{trans('language.contacts')}}</h2>
+                    <p>This is the <strong>contacts</strong> header!</p>
+                </header>
+
+            </div>
+
+        </div>
+
+
+        <div id="content-section">
+            <div class="container">
             <div class="row">
 
-                <header id="contacts-header">
-                    <h1>{{trans('language.contacts')}}</h1>
-                    <p>Contact me!!</p>
-                </header>
 
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
@@ -47,6 +58,7 @@
                     </form>
                 </div>
             </div>
+        </div>
         </div>
 
     </div>

@@ -18,15 +18,16 @@ $(document).ready(function(){
 
 
 
-    var translations = {
-        areYouSure: window.translations.areYouSure || 'Are you sure you want to delete this member? This action cannot be undone!',
-    };
 
     $(".delete-member").on("submit", function(){
-        return confirm(translations.areYouSure);
+        return confirm('Tem a certeza que pretende apagar este membro? Esta acção é irreversível!');
     });
 
-/*
+    /*
+
+     var translations = {
+     areYouSure: window.translations.areYouSure || 'Are you sure you want to delete this member? This action cannot be undone!',
+     };
 
     var trigger = $('.hamburger'),
         overlay = $('.overlay'),
